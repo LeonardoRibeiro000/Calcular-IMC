@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&family=Roboto&display=swap');
+* {
+  padding: 0; /* Sempre começar tirando padding e margin*/
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("./exer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 250px;
+  
+}
+
+   
+
+p{
+  font-family: Roboto;
+}
+
+.header {
+  background-color: rgb(5, 5, 5);
+  border: solid 2px black;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  align-items: center;
+}
+@media (max-width: 480px) {
+  .header {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+    
+  }
+}
+.titulo{
+  color: white;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 25px;
+  }
+}
+.titulomenor{
+  color: white;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+
+}
+@media (max-width: 480px) {
+  .titulomenor {
+    font-size: 16px;
+  }
+}
+
+
+
+.content{
+  
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+  
+  
+}
+
+.container{
+  background-image: url("./exer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 20px;
+}
+
+
+.table{
+  margin-left: 20px;
+}
+@media (max-width: 400px) {
+  .table {
+    width: 85%;
+  
+  }
+}
+
+
+th{
+  border: solid 1px black;
+  padding: 10px;}
+td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+.explicacao{
+  margin-left: 20px;
+
+}
+
+
+.formulario{
+  margin-left: 20px;
+  width: 100px;
+  height: 30px;
+ 
+}
+
+
+.input{
+  width: 80px;
+  height: 30px;
+
+}
+.label{
+
+font-size: 15px;
+
+}
+
+
+.btn-calc{
+  height: 50px;
+  margin-left: 45px;
+  width: 15%
+  
+}
+
+@media (max-width: 480px) {
+  .btn-calc {
+    width: 60%;
+    margin-left: 65px;
+    
+  }
+}
+
+@media (max-width: 320px) {
+  .btn-calc {
+    width: 70%;
+    margin-left: 50px;
+    height: 30px;
+  }
+}
+
+
+
+p {
+
+  font-size: 20px;
+  color:black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  
+}
+@media (max-width: 320px) {
+  .p {
+    font-size: 13px;
+    
+  }
+}
+
+
+
+footer{
+  background-color: transparent;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 400px) {
+  .footer {
+    margin-bottom: 1em;
+    
+  }
+}
+
+.image{
+  width: 55px;
+  
+}
+@media (max-width: 400px) {
+  .image {
+    width: 30px;
+    
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+.image-gym{
+  width: 30px;
+  margin-left: 40%
+}
+

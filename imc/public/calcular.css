@@ -1,0 +1,166 @@
+* {
+    padding: 0; /* Sempre começar tirando padding e margin*/
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url("./exer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
+  }
+
+
+  .header {
+    background-color: rgb(5, 5, 5);
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+  }
+  @media (max-width: 480px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+      
+    }
+  }
+
+
+  .titulo{
+    color: white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  }
+  @media (max-width: 480px) {
+    .titulo {
+      font-size: 25px;
+    }
+  }
+
+
+  .titulomenor{
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+  }
+
+  @media (max-width: 480px) {
+    .titulomenor {
+      font-size: 16px;
+    }
+  }
+
+  .image{
+    width: 35px;
+  }
+
+  @media (max-width: 400px) {
+    .image {
+      width: 20px;
+      
+    }
+  }
+
+  @media (max-width: 360px) {
+    .image {
+      width: 15px;
+      margin-right: 1px;
+      
+    }
+  }
+  
+
+
+
+  .form-container{
+   margin-left: 20px;
+   text-align: center;
+    margin-top: 1em;
+    margin-right: 20px;
+  }
+
+
+  label{
+    font-size: 18px;
+  }
+  .input{
+    height: 35px;
+    
+  }
+
+  .btn{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+
+  }
+
+  p {
+
+    font-size: 15px;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    
+  }
+  @media (max-width: 320px) {
+    .p {
+      font-size: 13px;
+      
+    }
+  }
+  
+  
+
+  .result{
+    font-family: Anton;
+    font-size: 35px;
+    width: 150px;
+    white-space: nowrap;
+    margin-left: 45px;
+    margin-right: 20px;
+    
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+
+
+  footer{
+    background-color: transparent;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 1em;
+
+    
+  }
+  
+  .image{
+    width: 55px;
+    
+  }
+  @media (max-width: 400px) {
+    .image {
+      width: 30px;
+      
+      
+    }
+  }
+
+  .image-gym{
+    width: 30px;
+    margin-left: 43%;
+    margin-top: 2em;
+    
+    
+  }
